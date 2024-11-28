@@ -199,7 +199,7 @@ function gradient_starter_templates_get_templates_lists( $theme_slug ){
             
            'shop-demo' =>array(
                 'title' => __( 'Shop Demo', 'wp-starter-templates' ), /*Title*/
-                'is_pro' => false, /*Not Premium*/
+                'is_pro' =>  gradient_starter_templates_is_pro(), /*Premium*/ 
                 'type' => 'elementor', /*Optional eg elementor or other page builders*/
                 'author' => __( 'Gradient Themes', 'wp-starter-templates' ), /*Author Name*/
                 'keywords' => array( 'woocommerce', 'business', 'elementor' ), /*Search keyword*/
