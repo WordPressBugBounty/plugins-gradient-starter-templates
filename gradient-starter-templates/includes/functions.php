@@ -20,6 +20,7 @@ function gradient_starter_templates_is_pro(){
     
     //echo gradient_starter_templates_get_current_theme_slug();
     
+    
     if(gradient_starter_templates_get_current_theme_slug()=='best-shop' && function_exists('best_shop_pro_textdomain') ){
         return false;
     } 
@@ -33,6 +34,7 @@ function gradient_starter_templates_is_pro(){
     }     
     
     return true;
+    
 }
 
 

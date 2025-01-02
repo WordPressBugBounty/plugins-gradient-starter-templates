@@ -9,7 +9,7 @@ if ( ! defined( 'WPINC' ) ) {
 /*
 Plugin Name: 	Starter Templates by Gradient Themes
 Description: 	Plugin used to install demo data for themes developed and submitted by Gradient Themes.
-Version: 		1.2.3
+Version: 		1.2.5
 Author: 		gradientthemes
 Author URI: 	www.gradientthemes.com
 Tested up to: 	6.7
@@ -20,7 +20,7 @@ Domain Path:    /languages
 */
 
 /*Define Constants for this plugin*/
-define( 'gradient_starter_templates_VERSION', '1.2.3' );
+define( 'gradient_starter_templates_VERSION', '1.2.5' );
 define( 'gradient_starter_templates_PLUGIN_NAME', 'gradient-starter-templates' );
 define( 'gradient_starter_templates_PATH', plugin_dir_path( __FILE__ ) );
 define( 'gradient_starter_templates_URL', plugin_dir_url( __FILE__ ) );
