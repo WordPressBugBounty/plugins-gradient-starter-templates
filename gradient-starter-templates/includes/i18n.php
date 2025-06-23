@@ -34,7 +34,7 @@ class gradient_starter_templates_i18n {
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
-			'gradient-starter-templates',
+			'acme-demo-setup',
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);

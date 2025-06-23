@@ -10,10 +10,10 @@ function gradient_starter_templates_get_current_theme_slug(){
     // Check if it's a child theme
     if ($theme->parent()) {
       // Get the parent theme slug
-      $parent_theme_slug = $theme->parent()->get('TextDomain');
+      $parent_theme_slug = ""; //$theme->parent()->get('TextDomain');
       return $parent_theme_slug;
     } else {
-      return $theme->get('TextDomain');
+      return ""; //$theme->get('TextDomain');
     }
 }
 
@@ -210,7 +210,7 @@ function gradient_starter_templates_get_templates_lists( $theme_slug ){
             
            'shop-demo' =>array(
                 'title' => __( 'Shop Demo', 'wp-starter-templates' ), /*Title*/
-                'is_pro' =>  gradient_starter_templates_is_pro(), /*Premium*/ 
+                'is_pro' =>  false, /*Premium*/ 
                 'type' => 'elementor', /*Optional eg elementor or other page builders*/
                 'author' => __( 'Gradient Themes', 'wp-starter-templates' ), /*Author Name*/
                 'keywords' => array( 'woocommerce', 'business', 'elementor' ), /*Search keyword*/
