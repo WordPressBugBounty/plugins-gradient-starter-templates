@@ -10,10 +10,10 @@ function gradient_starter_templates_get_current_theme_slug(){
     // Check if it's a child theme
     if ($theme->parent()) {
       // Get the parent theme slug
-      $parent_theme_slug = ""; //$theme->parent()->get('TextDomain');
+      $parent_theme_slug = $theme->parent()->get('TextDomain');
       return $parent_theme_slug;
     } else {
-      return ""; //$theme->get('TextDomain');
+      return $theme->get('TextDomain');
     }
 }
 
@@ -28,7 +28,7 @@ function gradient_starter_templates_get_theme_name(){
 
 function gradient_starter_templates_is_pro(){
     
-    //echo gradient_starter_templates_get_current_theme_slug();
+    echo "current theme: " . gradient_starter_templates_get_current_theme_slug();
     
     if(gradient_starter_templates_get_current_theme_slug()=='best-shop' && function_exists('best_shop_pro_textdomain') ){
         return false;
@@ -92,7 +92,7 @@ function gradient_starter_templates_get_templates_lists( $theme_slug ){
               
              'business-agency' =>array(
                   'title' => __( 'Business / Agency', 'wp-starter-templates' ),/*Title*/
-                  'is_pro' => gradient_starter_templates_is_pro(),/*Premium*/
+                  'is_pro' => false,/*Premium*/
                   'pro_url' => 'https://gradientthemes.com/',
                   'type' => 'elementor', /*Optional eg elementor or other page builders*/
                   'author' => __( 'Gradient Themes', 'wp-starter-templates' ),/*Author Name*/
