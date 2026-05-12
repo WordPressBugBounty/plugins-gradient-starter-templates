@@ -1,10 +1,10 @@
 === Starter Templates by Gradient Themes ===
 Contributors: gradientthemes
 Donate link: gradientthemes.com
-Tags: import, content, demo, data, widgets, settings, redux, theme options
+Tags: import, content, demo, data, settings
 Requires at least: 4.9
 Tested up to: 6.9.4
-Stable tag: 1.2.9
+Stable tag: 1.2.10
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -14,9 +14,8 @@ your site will be ready within few seconds.
 
 == Description ==
 
-Setup your site theme from [Gradient Themes](https://www.gradientthemes.com/) site with template library dummy data easily. Import settings, widgets and content with one click. Gradient Sterter Templates requires [Advanced Import](https://wordpress.org/plugins/advanced-import/) Plugin to work normally.
+Import starter templates, demo content, widgets, and theme settings from Gradient Themes with one click. Requires the Advanced Import plugin. Demo images and files are fetched from official Gradient Themes demo sites during import. By using this plugin, you agree to the Terms & Conditions and Privacy Policy. https://www.gradientthemes.com/privacy-policy/
 
-While you use Gradient Sterter Templates to import demo starter site, Images and demo files are fetches from respected theme Demo Sites form Gradient Themes. This helps you to import starter dmeo site with a single click. You must accept [terms](https://www.gradientthemes.com/terms-and-conditions/) and [privacy](https://www.gradientthemes.com/privacy-policy/) to use Gradient Sterter Templates Plugin.
 
 == Installation ==
 
