@@ -28,7 +28,6 @@ function gradient_starter_templates_get_theme_name(){
 
 function gradient_starter_templates_is_pro(){
     
-    echo "current theme: " . gradient_starter_templates_get_current_theme_slug();
     
     if(gradient_starter_templates_get_current_theme_slug()=='best-shop' && function_exists('best_shop_pro_textdomain') ){
         return false;
@@ -275,6 +274,11 @@ function gradient_starter_templates_get_templates_lists( $theme_slug ){
 							'name'      => 'WooCommerce',
 							'slug'      => 'woocommerce',
 						),
+
+                        array(
+							'name'      => 'Newsletter',
+							'slug'      => 'newsletter',
+						),
                     						
 						array(
 							'name'      => 'Product Quick View',
@@ -340,6 +344,11 @@ function gradient_starter_templates_get_templates_lists( $theme_slug ){
 							'name'      => 'WooCommerce',
 							'slug'      => 'woocommerce',
 						),
+
+                        array(
+							'name'      => 'Newsletter',
+							'slug'      => 'newsletter',
+						),
 								
                     						
 						array(
@@ -380,6 +389,12 @@ function gradient_starter_templates_get_templates_lists( $theme_slug ){
 						array(
 							'name'      => 'WooCommerce',
 							'slug'      => 'woocommerce',
+						),
+
+
+                        array(
+							'name'      => 'Newsletter',
+							'slug'      => 'newsletter',
 						),
                     						
 						array(

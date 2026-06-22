@@ -3,8 +3,8 @@ Contributors: gradientthemes
 Donate link: gradientthemes.com
 Tags: import, content, demo, data, settings
 Requires at least: 4.9
-Tested up to: 6.9.4
-Stable tag: 1.2.12
+Tested up to: 7.0.0
+Stable tag: 1.2.13
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
